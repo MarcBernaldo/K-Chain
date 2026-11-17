@@ -1,0 +1,5 @@
+# Les bitàcoles reals no es pugen al repositori
+*.xlsx
+!exemples/*.xlsx
+!plantilla/Bitacola_plantilla.xlsx
+~$*

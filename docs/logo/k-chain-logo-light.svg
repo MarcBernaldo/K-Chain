@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" width="520" height="128">
+  <g><defs>
+    <linearGradient id="kc-g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#DC2626"/>
+      <stop offset="0.5" stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#DB2777"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#0d1117"/>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="27.25" fill="none" stroke="#263140" stroke-width="1.5"/>
+  <!-- eslabones entre nodos -->
+  <g fill="none" stroke="url(#kc-g)" stroke-width="7" stroke-linecap="round">
+    <rect x="-15" y="-8" width="30" height="16" rx="8" transform="translate(48 80) rotate(-45)"/>
+    <rect x="-15" y="-8" width="30" height="16" rx="8" transform="translate(80 48) rotate(-45)"/>
+  </g>
+  <!-- nodos (tarjetas) -->
+  <rect x="18" y="88" width="24" height="24" rx="7" fill="#151b24" stroke="#DC2626" stroke-width="5"/>
+  <rect x="52" y="52" width="24" height="24" rx="7" fill="#151b24" stroke="#EA580C" stroke-width="5"/>
+  <rect x="86" y="16" width="24" height="24" rx="7" fill="#151b24" stroke="#DB2777" stroke-width="5"/>
+  <circle cx="98" cy="28" r="4.5" fill="#DB2777"/>
+  <circle cx="64" cy="64" r="4.5" fill="#EA580C"/>
+  <circle cx="30" cy="100" r="4.5" fill="#DC2626"/>
+</g>
+  <text x="148" y="72" font-family="Segoe UI, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#1f2937" letter-spacing="0.5">K-Chain</text>
+  <text x="150" y="104" font-family="Segoe UI, system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="19" fill="#5b6675" letter-spacing="1.5">KILL CHAIN MAP · DFIR</text>
+</svg>
